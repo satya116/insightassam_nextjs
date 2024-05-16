@@ -1,9 +1,9 @@
 const SERVER_URL = "http://localhost:5000";
+import axios from "axios";
 
 const createNews = async (newsData) => {
 
     console.log("Handle Submit 2");
-
 
     let createNewsResponse
 
